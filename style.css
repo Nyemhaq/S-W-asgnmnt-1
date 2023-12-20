@@ -1,0 +1,1211 @@
+.com-logo
+{
+    width: 220PX;
+    height: 40px;
+}
+.cart_user
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    padding-left: 15px;
+}
+.navbar-nav
+{
+    padding-left: 20px;
+}
+.icon-cards .col-lg-1
+{
+  background-color: #EDEDED; 
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:15%;
+}
+.icon-cards img 
+{
+  max-height: 80px; 
+  max-width: 80px;
+}
+.sale
+{
+    background-image: linear-gradient(#958AD4,#958AD4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.title
+{
+  font-size: 60px;
+}
+.lft-img img
+{
+  position: relative;
+  margin-right: 30%;
+  height: 260px;
+  width: 350px;
+  padding-right: 30%;
+  margin-left: -10%;
+  overflow: hidden;
+}
+.mdl-txt
+{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  text-align: center;
+}
+.rght-img img
+{
+  position: relative;
+  margin-left: 30%;
+  height: 260px;
+  width: 400px;
+  padding-left: 10%;
+  margin-right: -5%;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+    .search {
+      width: 50%;
+    }
+  }
+
+@media (min-width: 768px) {
+    .navbar-nav .nav-link {
+      white-space: nowrap;
+    }
+}
+.car-1
+{
+  background-image: linear-gradient(#F7D5F8,#A7A0F9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: space-around;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2.9%;
+  align-items: center;
+  gap: 30px;
+}
+.car-2
+{
+  background-image: linear-gradient(#F7D5F8,#A7A0F9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: space-around;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 6%;
+  align-items: center;
+  padding-bottom: 5.2%;
+  gap: 30px;
+}
+.car-3
+{
+  background-image: linear-gradient(#F7D5F8,#A7A0F9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: space-around;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 7%;
+  padding-bottom: 8%;
+  align-items: center;
+  gap: 30px;
+}
+h1,h5,p,a
+{
+  font-family: 'Epilogue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.banner-title
+{
+  font-size:50px;
+  font-weight: 200;
+}
+.cart-1-text
+{
+  padding-top: -120px;
+}
+.carousel-item {
+  height: 400px; 
+}
+
+/* screen for 4K */
+@media (max-width:4560px) and (min-width:1440px)
+{
+  .sale
+  {
+    display: flex;
+  }
+  .carousel-item {
+    height: 450px; 
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: 90%;
+  }
+  .carousel-item .d-flex {
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+  }
+  .carousel-item .cart-text {
+    text-align: center;
+  }
+  .car-1
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 10px;
+  }
+  .car-2
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+    align-items: center;
+    gap: 20px;
+  }
+  .car-3
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+    align-items: center;
+    gap: 20px;
+  }
+  .car-1 img
+  {
+    max-height: 400px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+  }
+  .car-2 img
+  {
+    max-height: 300px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+  }
+  .car-3 img
+  {
+    max-height: 300px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+  }
+  .search {
+    width: 100%;
+  }
+  .card-1 img 
+  {
+    height: 400px;
+    width: 450px;
+    position: relative;
+  }
+  .card-2 img 
+  {
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    position: relative;
+  }
+  .card-3 img 
+  {
+    height: 500px;
+    width: 800px;
+    margin-left: 20px;
+    position: static;
+  } 
+  .card-1
+  {
+    padding-right: 5%;
+    width: 1300px;
+    height: 300px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-2
+  {
+    padding: 40px;
+    background-image: linear-gradient(#ADC2D7,#ADC2D7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1300px;
+    height: 300px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-3
+  {
+    background-image: linear-gradient(#EDEDED,#EDEDED);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    height: 600px;
+    width: 1300px;
+    display: flex;
+    position: static;
+    overflow: hidden;
+  }
+  .card-1 .text{
+    padding-top: 5%;
+  }
+  .card-2 .text{
+    padding-top: 5%;
+  }
+  .card-3 .text{
+    padding-top: 5%;
+    padding-left: 20px;
+  }
+  .cards
+  {
+    margin-left: 1px;
+    display: flex;
+    overflow: hidden;
+  }
+  .card-text
+  {
+    text-align:justify;
+    padding-bottom: 10px;
+  }
+}
+.foot
+{
+  background-color:#0E071B ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.foot-icon img {
+  filter: brightness(0) invert(1);
+  height: 30px;
+  width: 30px;
+  margin-right: 25px;
+}
+.left-foot li
+{
+  list-style: none;
+  color: white;
+  padding-top: 8px;
+}
+.left-fot li
+{
+  list-style: none;
+  color: white;
+  padding-top: 8px;
+}
+.left-foot,.left-fot
+{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media (max-width: 800px) {
+  .icon-cards .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icon-cards .col-lg-1,
+  .icon-cards .col-md-3,
+  .icon-cards .col-sm-6,
+  .icon-cards .col-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: center;
+  }
+  .sale
+{
+    background-image: linear-gradient(#958AD4,#958AD4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin-top: 5%;
+}
+.title
+{
+  font-size: 60px;
+}
+.lft-img img
+{
+  height: 200px;
+  width: 500px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.mdl-txt
+{
+  padding-top: 8%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.rght-img img
+{
+  margin-left: 60%;
+  height: 220px;
+  width: 350px;
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
+.foot
+{
+  background-color:#0E071B ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.l-foot
+{
+  order:1;
+  padding-top: 30px;
+}
+.left-foot {
+  order: 2; 
+}
+.left-fot
+{
+  order: 3;
+  padding-bottom: 10px;
+}
+.foot-icon {
+  order: 4;
+  padding-bottom: 30%;
+  margin-left: 40px;
+}
+}
+/* screen for laptop & desktop 1440px */
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .sale
+  {
+    display: flex;
+  }
+  .carousel-item {
+    height: 400px; 
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-item .d-flex {
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .carousel-item .cart-text {
+    text-align: center;
+  }
+  .car-1
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 18%;
+    padding-right: 18%;
+    gap: 10%;
+  }
+  .car-2
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5.2%;
+    align-items: center;
+    gap: 40px;
+  }
+  .car-3
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5.2%;
+    align-items: center;
+    gap: 40px;
+  }
+  .car-1 img
+  {
+    max-height: 450px;
+    max-width: 280px;
+    height: auto;
+    width: auto;
+  }
+  .car-2 img
+  {
+    max-height: 300px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+  }
+  .car-3 img
+  {
+    max-height: 280px;
+    max-width: 280px;
+    height: auto;
+    width: auto;
+  }
+  .search {
+    max-width: 100%;
+  }
+  .card-1 img 
+  {
+    height: 380px;
+    width: 550px;
+    position: relative;
+    margin-left: -20%;
+    margin-right: -12%;
+  }
+  .card-2 img 
+  {
+    height: 380px;
+    width: 380px;
+    margin-right: 20px;
+    position: relative;
+    margin-left: -5%;
+  }
+  .card-3 img 
+  {
+    height: 650px;
+    width: 800px;
+    margin-left: 5%;
+    margin-right: -30%;
+    position: static;
+  } 
+  .card-1
+  {
+    width: 700px;
+    height: 300px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-2
+  {
+    padding: 40px;
+    background-image: linear-gradient(#ADC2D7,#ADC2D7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: 420px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-3
+  {
+    background-image: linear-gradient(#EDEDED,#EDEDED);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 720px;
+    position: static;
+    overflow: hidden;
+    display: flex;
+  }
+  .card-3 .text{
+    padding-top: 8%;
+    padding-left: 5%;
+    width: 30%;
+  }
+  .card-text
+  {
+    text-align:justify;
+    padding-bottom: 10px;
+  }
+  .cards
+  {
+    display: flex;
+    overflow: hidden;
+  }
+}
+/* screen for laptop & desktop 1024px */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .sale
+  {
+    display: flex;
+  }
+  .carousel-item {
+    height: 380px; 
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-item .d-flex {
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .carousel-item .cart-text {
+    text-align: center;
+  }
+  .car-1
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 12%;
+    padding-right: 12%;
+    gap: 50px;
+  }
+  .car-2
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 12%;
+    padding-right: 12%;
+    align-items: center;
+    gap: 50px;
+  }
+  .car-3
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 12%;
+    padding-right: 12%;
+    align-items: center;
+    gap: 50px;
+  }
+  .car-1 img
+  {
+    max-height: 400px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+  }
+  .car-2 img
+  {
+    max-height: 310px;
+    max-width: 310px;
+    height: auto;
+    width: auto;
+  }
+  .car-3 img
+  {
+    max-height: 250px;
+    max-width: 250px;
+    height: auto;
+    width: auto;
+  }
+  .cart-1-text p,.cart-2-text p, .cart-3-text p
+  {
+    font-size: 15px;
+  }
+  .card-1 img 
+  {
+    height: 350px;
+    width: 450px;
+    position: relative;
+    margin-left: -26%;
+  }
+  .card-2 img 
+  {
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    position: relative;
+    margin-left: -12%;
+  }
+  .card-3 img 
+  {
+    height: 650px;
+    width: 750px;
+    margin-left: 20px;
+    margin-right: -45%; 
+    position: static;
+  } 
+  .card-3 .text{
+    padding-top: 15%;
+  }
+  .card-1
+  {
+    width: 550px;
+    height: 340px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-2
+  {
+    padding: 40px;
+    background-image: linear-gradient(#ADC2D7,#ADC2D7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 400px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-3
+  {
+    background-image: linear-gradient(#EDEDED,#EDEDED);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 740px;
+    position: static;
+    overflow: hidden;
+    display: flex;
+  }
+  .card-3 .text{
+    width: 30%;
+    padding-left: 20px;
+    margin-top: -5%;
+  }
+  .card-text
+  {
+    text-align:justify;
+    padding-bottom: 10px;
+  }
+  .cards{
+    overflow: hidden;
+    display: flex;
+  }
+}
+
+/* screen for tab */
+@media (max-width: 768px) and (min-width: 425px) 
+{
+  .sale
+  {
+    display: block;
+  }
+  .carousel-item {
+    height: 270px; 
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-item .d-flex {
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .carousel-item .cart-text {
+    text-align: center;
+  }
+  .car-1
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 50px;
+  }
+  .car-2
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    gap: 30px;
+  }
+  .car-3
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    gap: 50px;
+  }
+  .car-1 img
+  {
+    max-height: 280px;
+    height: auto;
+    max-width: 180px;
+    width: auto;
+  }
+  .car-2 img
+  {
+    max-height: 210px;
+    max-width: 210px;
+    height: auto;
+    width: auto;
+  }
+  .car-3 img
+  {
+    max-height: 200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+  }
+  .cart-1-text p,.cart-2-text p, .cart-3-text p
+  {
+    font-size: 12px;
+  }
+  .card-1 img 
+  {
+    height: 450px;
+    width: 600px;
+    position: relative;
+    margin-left: -20%;
+    margin-right: -15%;
+  }
+  .card-2 img 
+  {
+    height: 350px;
+    width: 350px;
+    margin-right: 20px;
+    position: relative;
+    margin-left: -12%;
+  }
+  .card-3 img 
+  {
+    height: 500px;
+    width: 750px;
+    margin-left: 20px;
+    margin-right: -45%; 
+    position: static;
+  } 
+  .card-1 .text{
+    padding-top: 8%;
+  }
+  .card-2 .text{
+    padding-top: 8%;
+  }
+  .card-3 .card-title
+  {
+    align-items: center;
+    font-size: 90px;
+    font-weight: 100;
+  }
+  .card-1
+  {
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-2
+  {
+    padding: 40px;
+    background-image: linear-gradient(#ADC2D7,#ADC2D7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-3
+  {
+    background-image: linear-gradient(#EDEDED,#EDEDED);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    position: static;
+    width: 100%;
+    display: block;
+    margin-top: -12%;
+  }
+  .btn
+  {
+    width: 40%;
+    height: 20%;
+  }
+  .card-3 .text{
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  .card-text
+  {
+    text-align:justify;
+    padding-bottom: 10px;
+  }
+  .cards{
+    overflow: hidden;
+    display: block;
+  }
+}
+@media (max-width: 425px) and (min-width: 375px) 
+{
+  .sale
+  {
+    display: block;
+  }
+  .carousel-item {
+    display:block;
+    height: 430px;
+    overflow: hidden;
+  }
+  .car-1
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .car-2,.car-3
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .car-1 img
+  {
+    max-height: 225px;
+    height: auto;
+    max-width: 100%
+  }
+  .car-2 img,.car-3 img
+  {
+    max-height: 200px;
+    height: auto;
+    max-width: 100%
+  }
+  .cart-1-text h1,.cart-2-text h1, .cart-3-text h1
+  {
+    font-size: 20px;
+    word-spacing: -1px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .cart-1-text h5,.cart-2-text h5, .cart-3-text h5
+  {
+    font-size: 12px;
+    color: #AA9EC3;
+    text-align: center;
+  }
+  .cart-1-text p,.cart-2-text p,.cart-3-text p 
+  {
+    font-size: 12px;
+    text-align: center;
+  }
+  .card-1 img 
+  {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    margin-left: -28%;
+    margin-right: -10%;
+  }
+  .card-2 img 
+  {
+    height: 200px;
+    width: 200px;
+    position: relative;
+  }
+  .card-3 img 
+  {
+    height: 300px;
+    width: 380px;
+    margin-left: 10px;
+    margin-right: -55%; 
+    position: static;
+  } 
+  .card-1 .text{
+    padding-top: 10px;
+    width: 100%;
+  }
+  .card-2 .text{
+    padding-top: 10px;
+    width: 100%;
+  }
+  .card-3 .card-title
+  {
+    align-items: center;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .card-1
+  {
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-2
+  {
+    padding: 40px;
+    background-image: linear-gradient(#ADC2D7,#ADC2D7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-3
+  {
+    background-image: linear-gradient(#EDEDED,#EDEDED);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    position: static;
+    width: 100%;
+    display: block;
+  }
+  .btn
+  {
+    width: 50%;
+    height: 20%;
+  }
+  .card-3 .text{
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 15%;
+  }
+  .card-text
+  {
+    text-align:justify;
+    padding-bottom: 10px;
+  }
+  .cards{
+    overflow: hidden;
+    display: block;
+  }
+}
+@media (max-width: 375px)
+{
+  .sale
+  {
+    display: block;
+  }
+  .carousel-item {
+    display:block;
+    height: 410px;
+    overflow: hidden;
+  }
+  .car-1
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .car-2,.car-3
+  {
+    background-image: linear-gradient(#F7D5F8,#A7A0F9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .car-1 img
+  {
+    max-height: 225px;
+    height: auto;
+    max-width: 100%
+  }
+  .car-2 img,.car-3 img
+  {
+    max-height: 200px;
+    height: auto;
+    max-width: 100%
+  }
+  .cart-1-text h1,.cart-2-text h1, .cart-3-text h1
+  {
+    font-size: 20px;
+    word-spacing: -1px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .cart-1-text h5,.cart-2-text h5, .cart-3-text h5
+  {
+    font-size: 12px;
+    color: #AA9EC3;
+    text-align: center;
+  }
+  .cart-1-text p,.cart-2-text p,.cart-3-text p 
+  {
+    font-size: 12px;
+    text-align: center;
+  }
+  .cart-1-text
+  {
+    padding-bottom: 5%;
+  }
+  .card-1 img 
+  {
+    height: 190px;
+    width: 200px;
+    position: relative;
+    margin-left: -28%;
+    margin-right: -10%;
+  }
+  .card-2 img 
+  {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    margin-left:-15% ;
+    margin-right: 20px;
+  }
+  .card-3 img 
+  {
+    height: 220px;
+    width: 330px;
+    margin-left: 3px;
+    margin-right: -45%; 
+    position: static;
+  } 
+  .card-1 .text{
+    padding-top: 10px;
+    width: 100%;
+  }
+  .card-2 .text{
+    width: 100%;
+  }
+  .card-3 .card-title
+  {
+    align-items: center;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .card-1
+  {
+    width: 100%;
+    height: 280px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-2
+  {
+    padding: 40px;
+    background-image: linear-gradient(#ADC2D7,#ADC2D7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 105%;
+    height: 370px;
+    padding: 40px;
+    position: relative;
+  }
+  .card-3
+  {
+    background-image: linear-gradient(#EDEDED,#EDEDED);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    position: static;
+    width: 100%;
+    display: block;
+  }
+  .btn
+  {
+    width: 50%;
+    height: 20%;
+  }
+  .card-3 .text{
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .card-text
+  {
+    text-align:justify;
+    padding-bottom: 10px;
+  }
+  .cards{
+    overflow: hidden;
+    display: block;
+  }
+}
